@@ -1,0 +1,34 @@
+{
+ "thresholds": {
+  "IsolationForest": 0.4941127071582015,
+  "Autoencoder": 0.695988788555955,
+  "LogisticRegression": 0.9203989837083805,
+  "RandomForest": 0.7049245058117183
+ },
+ "deployed": "Autoencoder",
+ "unsup_cols": [
+  "vibration_amp",
+  "vibration_freq",
+  "bearing_temp",
+  "motor_current",
+  "rpm",
+  "acoustic_db",
+  "pressure",
+  "vibration_amp_rstd6",
+  "bearing_temp_rstd6",
+  "motor_current_rstd6",
+  "vib_per_current",
+  "temp_per_current",
+  "acoustic_per_vib",
+  "freq_rpm_ratio",
+  "pressure_per_current",
+  "resid_vibration_amp",
+  "resid_vibration_amp_rmean6",
+  "resid_bearing_temp",
+  "resid_bearing_temp_rmean6",
+  "resid_acoustic_db",
+  "resid_acoustic_db_rmean6",
+  "resid_pressure",
+  "resid_pressure_rmean6"
+ ]
+}

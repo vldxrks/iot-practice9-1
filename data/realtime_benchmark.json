@@ -1,0 +1,46 @@
+[
+ {
+  "scenario": "normal stream",
+  "records": 2593,
+  "mean_ms": 9.83,
+  "p95_ms": 10.54,
+  "max_ms": 71.13,
+  "throughput_rps": 101.6,
+  "precision": 0.927,
+  "recall": 0.828,
+  "alerts": 151
+ },
+ {
+  "scenario": "burst 1000",
+  "records": 1001,
+  "mean_ms": 9.6,
+  "p95_ms": 10.04,
+  "max_ms": 18.17,
+  "throughput_rps": 104.1,
+  "precision": 1.0,
+  "recall": 0.655,
+  "alerts": 19
+ },
+ {
+  "scenario": "1 Hz (30 s)",
+  "records": 31,
+  "mean_ms": 25.42,
+  "p95_ms": 34.71,
+  "max_ms": 43.08,
+  "throughput_rps": 1.0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "alerts": 0
+ },
+ {
+  "scenario": "15% missing",
+  "records": 2593,
+  "mean_ms": 9.57,
+  "p95_ms": 10.1,
+  "max_ms": 36.49,
+  "throughput_rps": 104.4,
+  "precision": 0.828,
+  "recall": 0.828,
+  "alerts": 169
+ }
+]
