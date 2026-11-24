@@ -14,3 +14,7 @@ python inference.py        # real-time engine + бенчмарки (alerts.log)
 
 ## Декларація використання ШІ
 ШІ Claude допоміг з усіма перевірками коду на наявність всіх вимог у завданні. Також він допоміг з оформленням файлу README.md
+
+#Скріншоти запуску коду
+Всі скріншоти з терміналу є у відкритому Google Документі за посиланням:
+https://docs.google.com/document/d/1g0ckXEJXogS8ksmAcIKnXd9_MWxhXaYNh2Bx6Pjt2Mg/edit?usp=sharing
